@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: "katsunori-ibusuki-yoriso.github.io",
-    buildAssetsDir: ".nuxt/",
+    baseURL: "/",
   },
   nitro: {
     preset: "static",
