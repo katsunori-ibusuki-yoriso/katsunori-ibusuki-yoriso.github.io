@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: "/",
+    baseURL: "",
+    buildAssetsDir: "/_nuxt/",
   },
   nitro: {
     preset: "static",
