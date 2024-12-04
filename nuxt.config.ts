@@ -1,5 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true }
-})
+  app: {
+    baseURL: "katsunori-ibusuki-yoriso.github.io",
+  },
+
+  ssr: true,
+  nitro: {
+    preset: "github-pages",
+  },
+});
